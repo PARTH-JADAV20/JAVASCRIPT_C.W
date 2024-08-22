@@ -1,0 +1,162 @@
+const userInput = 18;
+
+if (userInput % 2 === 0) {
+    console.log("number is an even number.");
+} else {
+ console.log("number is an odd number.");
+}
+
+
+
+
+
+const userInput = -9;
+
+
+if (userInput > 0) {
+    console.log(`number is a positive number.`);
+} else if (userInput < 0) {
+    console.log(`number is a negative number.`);
+} else {
+    console.log(`number is zero.`);
+}
+ 
+
+
+
+
+
+const userInput = 2024
+
+
+if ((userInput % 4 === 0 && userInput % 100 !== 0) || userInput % 400 === 0) {
+    console.log(`year is a leap year.`);
+} else {
+    console.log(`year is not a leap year.`);
+}
+
+
+
+
+
+
+// Prompt the user for three numbers
+const num1 =8 ;
+const num2 =8 ;
+const num3 =9 ;
+let maxNumber;
+
+if ((num1==num2) & num2==num3) {
+    console.log("all number are same")
+} else if (num1 >= num2 && num1 >= num3) {
+    maxNumber = num1;
+    console.log(maxNumber, "is max")
+} else if (num2 >= num3) {
+    maxNumber = num2;
+    console.log(maxNumber, "is max")
+} else {
+    maxNumber = num3;
+    console.log(maxNumber, "is max")
+}
+
+
+
+
+
+
+
+
+
+const userInput = 20;
+
+if (userInput >= 18) {
+    console.log("You are eligible to vote!");
+} else {
+    console.log("Sorry, you are not eligible to vote.");
+}
+
+
+
+
+
+const userInput =45;
+
+const lowerBound = 10;
+const upperBound = 50;
+
+if (userInput >= lowerBound && userInput <= upperBound) {
+    console.log('number is within the range ');
+} else {
+    console.log(`number is outside the specified range.`);
+}
+
+
+
+
+const userInput =50;
+
+if (userInput % 5 === 0) {
+    console.log(`number is divisible by 5.`);
+} else {
+    console.log(`number is not divisible by 5.`);
+}
+
+
+
+
+const num1=5;
+const num2=4;"
+console.log(num1+num2 , num1/num2 , num1-num2 , num1*num2)
+
+
+
+
+
+const side1 =5 ;
+const side2 =4 ;
+const side3 =4 ;
+
+
+
+if (side1 === side2 && side2 === side3) {
+    console.log("It's an equilateral triangle.");
+} else if (side1 === side2 || side1 === side3 || side2 === side3) {
+    console.log("It's an isosceles triangle.");
+} else {
+    console.log("It's a scalene triangle.");
+}
+
+
+
+
+
+
+console.log("enter number from 1 to 7: ")
+const no =7;
+
+if (no==1){
+    console.log("monday")
+} else if (no==2){
+    console.log("tuesday")
+}  else if (no==3){
+    console.log("wednesday")
+}  else if (no==4){
+    console.log("thursday")
+}  else if (no==5){
+    console.log("friday")
+}  else if (no==5){
+    console.log("saturday")
+}  else if (no==7){
+    console.log("sunday")
+}
+
+
+
+
+
+
+
+
+
+
+

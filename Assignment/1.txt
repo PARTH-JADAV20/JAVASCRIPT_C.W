@@ -1,0 +1,95 @@
+-------------------------------------------------------------------------------OBJECTS---------------------------------------------------------------------------------
+
+// Challenge 1: Create an Array "myFavSuperheroes" and add all your favourite superhero names as an array element (Please note, you should add atleast 5 names).
+var myFavSuperheroes =["naruto","luffy","zoro","hinata","jiraya"]
+// Challenge 2: Print (in console) the first superheroes name in your array "myFavSuperheroes".
+console.log(myFavSuperheroes[0]);
+// Challenge 3: Print (in console) the length of the array "myFavSuperheroes".
+console.log(myFavSuperheroes.length)
+// Challenge 4: Change the second last element in the Array "myFavSuperheroes" to your name and print the second last element in the array "myFavSuperheroes".
+myFavSuperheroes[3]="parth";
+console.log(myFavSuperheroes)
+// Challenge 5: Add your friend's name (friend 1) to the array "myFavSuperheroes" at the start without using the splice method.
+myFavSuperheroes.unshift("dhruv")
+// Challenge 6: Add your friend's name (friend 2) to the array "myFavSuperheroes" at the end without using the splice method.
+myFavSuperheroes.push("dhruvil")
+console.log(myFavSuperheroes)
+// Challenge 7: Remove your friend's name (friend1) in the array "myFavSuperheroes" without using the splice method.
+myFavSuperheroes.shift("dhruv")
+// Challenge 8: Remove your friend's name (friend2) in the array "myFavSuperheroes" without using the splice method.
+myFavSuperheroes.pop("dhruvil")
+// Challenge 9: Add your friend's name (friend 1) to the array "myFavSuperheroes" at the 3rd position without removing any element using the splice method.
+myFavSuperheroes.splice(2,0,'priya')
+console.log(myFavSuperheroes)
+// Challenge 10:  Remove the 4th and 5th element in the array "myFavSuperheroes",  and add your friend's name (friend 2) at the 4th position using the splice method.
+myFavSuperheroes.splice(3,2,'neel')
+console.log(myFavSuperheroes)
+// Challenge 11:  Create a nested array "superheroUniverse" and add 2 ararys to it, where first array should contain the name of the Marvel superheroes and second ararys should contain the name of the DC superhereoes.
+var superheroUniverse =[["ironman","spiderman","thor","hulk","cap.america"],["superman","batman","flash","aquaman","shazaam"]]
+// Challenge 12: Print one of the Marvel superhero name from the array "superheroUniverse".
+console.log(superheroUniverse[0][2])
+// Challenge 13: Print one of the DC superhero name from the array "superheroUniverse".
+console.log(superheroUniverse[1][2])
+
+--------------------------------------------------------------------------------------LOOP-----------------------------------------------------------------------------
+
+// Challenge 1: Create a for loop to print all the even numbers till 100 in the console.
+for (i=0;i<=100;i=i+2){
+  console.log(i)
+}
+// Challenge 2: Create a while loop to print all the odd numbers till 100 in the console.
+i=1
+while(i<=100){
+  console.log(i)
+  i=i+2
+}
+// Challenge 3: Create a do while loop to print all the multiples of 3 till 100 in the console.
+i=1
+d0{
+  console.log("3 x",i/3,"=",i)
+  i=i+3
+}
+while(i<=100)
+// Challenge 4: Create a for loop to print all the prime numbers till 100 in the console.
+var a=5
+var count=0
+
+for (i=2;i<a;i++){
+  if (a%i==0) {
+        count=count+1
+    }
+}
+if (count>0){
+    console.log(a,"is not a prime number")
+}else {
+    console.log(a,"is a prime number")
+}
+
+--------------------------------------------------------------------------conditional statement------------------------------------------------------------------------
+
+
+  // Challenge 1: Use if else condition to store the respective comments in the variable "message1" based on the score input.
+  // when the user gives a number input and clicks on the submit button, the respective comments should be displayed.
+  // Here are the values and their respective comments
+  // Score of less than 0 or more than 100 — “This is not possible. An error has occurred.”
+  // Score of 0 to 19 — “That was a terrible score!”
+  // Score of 20 to 39 — “You know some things. Needs improvement.”
+  // Score of 40 to 69 — “You did a passable job, not bad!”
+  // Score of 70 to 89 — “That’s a great score. You really know your stuff.”
+  // Score of 90 to 100 — “What an amazing score!”
+
+var message1=20
+
+if (message1<0 || message1>100){
+    console.log("This is not possible. An error has occurred.")
+}else if (message1>=0 & message1<=19){
+    console.log("That was a terrible score!")
+}else if (message1>=20 & message1<=39){
+    console.log("You know some things. Needs improvement.")
+}else if (message1>=40 & message1<=69){
+    console.log("You did a passable job, not bad!")
+}else if (message1>=70 & message1<=89){
+    console.log("Thats a great score. You really know your stuff.")
+}else if (message1>=90 & message1<=100){
+    console.log("What an amazing score!")
+}

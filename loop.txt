@@ -1,0 +1,46 @@
+for (var i = 5; i <= 50; i=i+5) {
+    console.log("5 x",i/5,'=',i);
+} 
+
+
+
+for (var i = 10; i >=0; i=i-1) {
+    console.log(i);
+} 
+
+
+for (var i = 0; i <=100; i=i+2) {
+    console.log(i);
+} 
+
+
+i=5
+while (i<=50){
+    console.log("5 x",i/5,'=',i);
+    i=i+5
+}
+
+
+i=10
+while (i>=0) {
+    console.log(i)
+    i=i-1
+}
+
+
+
+i=0
+do {
+    i=i+5
+    console.log("5 x",i/5,'=',i);
+}
+while (i<=45)
+
+
+
+i=102
+do {
+    i=i-2
+    console.log(i);
+}
+while (i>=2)

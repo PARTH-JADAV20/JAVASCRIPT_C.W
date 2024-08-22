@@ -1,0 +1,94 @@
+function cal_attendance (number){
+    console.log("calculate attendence")
+    var i=1;
+    for (;i<=number;i=i+1) {
+        console.log(i)
+    }
+}
+
+cal_attendance(42);
+
+cal_attendance(10);
+
+
+
+
+
+function cal_attendance (number1,number2){
+    console.log(number1)
+    console.log(number2)
+}
+
+cal_attendance(42,42);
+cal_attendance(90);
+cal_attendance(null,90);
+cal_attendance();
+
+
+
+
+
+
+
+
+function cal_stu(student_count) {
+     
+        for (i=1;i<=student_count;i=i+1)
+        console.log(i)
+    
+}
+var student_count=51;
+
+if (student_count>60){
+    console.log("entry denied");
+    } else {
+    cal_stu(student_count)
+    }
+
+
+
+ARRAYS
+
+
+
+var roll_numbers =[1,2,5,9,'user',8,[4,"new",'user'],7,3,9,function test (){}]
+ console.log(roll_numbers[8])
+
+for (i=0;i<roll_numbers.length;i=i+1) {
+    console.log(roll_numbers[i]);
+}
+
+
+
+
+var roll_numbers =[1,2,5,9,'user',8,[4,"new",'user'],7,3,9,function test (){}]
+console.log(roll_numbers[6][0])
+
+
+
+var roll_numbers =[1,2,5,9,'user',8,[4,"new",'user'],7,3,9,function test (){}]
+// console.log(roll_numbers[8])
+
+var i=0;
+while (roll_numbers[i]!=undefined){
+    console.log(roll_numbers[i])
+    i=i+1;
+}
+
+
+
+
+var factorial_number=1;
+for(var i=5;i>0;i--){
+    factorial_number=factorial_number*i;
+}
+console.log(factorial_number);
+
+
+
+
+
+
+
+
+

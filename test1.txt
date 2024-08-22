@@ -1,0 +1,106 @@
+Q1} Demonstrate the difference between Let, Var and Const through an example.
+
+ANS: let and var can be change whenever its needed but const can not be changed. var can be called before var line but const and let can only called after line.
+
+Q2} write a program to print factorial of a number using do while loop
+ 
+ANS:    var factorial_No=4
+	var fact=1
+	for (var i=factorial_No;i>0;i--){
+    	fact=fact*I
+	}
+console.log(fact)
+
+Q3} write a program to print all even numbers between 4 to 100 in descending order(example: 100, 98, 96)
+
+ANS:    n1=100
+	n2=4
+
+	for (i=n1;i>=n2;i=i-2){
+    	console.log(i)
+	}
+
+Q4} Create a grading system using if..else statement
+    for marks below 50, Grade E(Fail)
+    for 50-60 marks. Grade D
+    for 61-70 marks. Grade C
+    for 71-80 marks. Grade B
+    for 81-100 marks. Grade A
+
+ANS:
+	var marks=90
+	if (marks>=0 ,marks<=50){
+	    console.log("Grade E")
+	}else if (marks>=50 , marks<=60){
+    	    console.log("Grade D")
+	} else if (marks>=61 , marks<=70){
+    	    console.log("Grade C")
+	}else if (marks>=71 , marks<=80){	
+            console.log("Grade B")
+	}else if (marks>=81 , marks<=100){
+	    console.log("Grade A")
+	}
+Q5}Write a program to tell if the given number is Prime or not!
+
+ANS:
+
+var prime_no=2
+var count=0
+for (i=2;i<prime_no;i++){
+    if (prime_no%i==0) {
+        count=count+1
+    }
+}
+if (count>0){
+    console.log(prime_no,"is not a prime number")
+}else {
+    console.log(prime_no,"is a prime number")
+}
+
+
+
+
+Q6}Write a program to tell if the given number is Prime or not!
+ANS:
+i=0
+while(i<=90){
+    console.log("9 x",i/9,"=",i)
+    i=i+9
+}
+
+Q7} Write a function to print all the odd numbers from a given array.
+ANS:
+
+odd=[1,3,4,5,6,7,8,9,44,65,69,55,26,12,99]
+console.log(odd)
+
+for (i=0;i<odd.length;i++){
+    if (odd[i]%2!=0){
+        console.log(odd[i])
+    }
+}
+
+Q8}Write a program to find array length without using any inbuilt function, like array.length;
+ANS:
+odd=[1,3,4,5,6,7,8,9,44,65,69,55,26,12,99]
+console.log(odd)
+
+i=0
+while(odd[i]!=undefined){
+    console.log(odd[i])
+    i++
+}
+
+Q9}WAP to print Fibonacci series.{You can use google}
+ANS:
+var number=10
+     let n1=0,n2=1,nextterm;
+
+     i=1
+     while(i<=number){
+         console.log(n1)
+         nextterm=n1+n2;
+         n1=n2;
+         n2=nextterm;
+         i++ 
+     }

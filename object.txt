@@ -1,0 +1,51 @@
+var user_object= [{roll:1, name:"jatan",student_mobile:9988774455},
+{roll:2, name:"jenil",student_mobile:9988774455}]
+console.log(user_object)
+
+for (var i=0;i<user_object.length;i++){
+   console.log(user_object[i].name)
+}
+
+
+
+
+var test= {
+    roll_no:2,
+    name:"jenil",
+    student_mobile:{self:798456123, parents:9714142550}
+}
+
+console.log(test.student_mobile.parents)
+
+
+
+stuentprofile=[{studentname:"jadav parth",studentage:20, cohortname:"Dhruvil", location:"dhrangadhra", hobbies:{
+    hob1:"free fire", hob2:"coding"}},
+    {studentname:"dhruv",studentage:18, cohortname:"parth", location:"mhajan", hobbies: {
+    hob1:"pugb", hob2:"talking"}},
+    {studentname:"dhruvil",studentage:19, cohortname:"priy", location:"america", hobbies: {
+    hob1:"minecraft", hob2:"eating"}},
+    {studentname:"arjun",studentage:17, cohortname:"krish", location:"surat", hobbies: {
+    hob1:"coc", hob2:"reading"}},
+    {studentname:"jagjeet",studentage:18, cohortname:"jatan", location:"africa", hobbies: {
+    hob1:"ludo", hob2:"sleeping"}}
+]
+
+console.log(stuentprofile[3].hobbies.hob1)
+
+
+
+
+var user_object= [{roll:1, name:"jatan",student_mobile:9988774455},
+{roll:2, name:"jenil",student_mobile:9988774455},
+{roll:3, name:"jagtap",student_mobile:97541328},
+{roll:4, name:"jagjeet",student_mobile:{self:6541239788, parents:854123669}}]
+
+
+for(var i=0;i<user_object.length;i++){
+    console.log(user_object[i].name)
+}
+
+
+
+

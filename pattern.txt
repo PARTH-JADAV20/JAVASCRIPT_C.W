@@ -1,0 +1,114 @@
+var a="ABCD";
+
+for (i=0;i<=3;i++){
+  string=""
+  for (j=0;j<=i;j++){
+    string=string+a[j]
+  }console.log(string)
+}
+
+
+
+
+
+
+var a="ABCD";
+
+for (i=0;i<=3;i++){
+  string=""
+  for (j=0;j<=i;j++){
+    string=a[j]+string
+  }console.log(string)
+}
+
+
+
+
+var a="ABCD";
+
+for (i=0;i<=3;i++){
+  string=""
+  for (j=0;j<=i;j++){
+    string=string+a[i]
+  }console.log(string)
+}
+
+
+
+
+
+
+for (i=65;i<=90;i++){
+  string=""
+  for (j=65;j<=i;j++){
+    string=string+String.fromCharCode(j)
+  }console.log(string)
+}
+
+
+
+
+
+
+
+for (i=65;i<=90;i++){
+  string=""
+  for (j=65;j<=i;j++){
+    string=String.fromCharCode(j)+string
+  }console.log(string)
+}
+
+
+
+
+
+
+for (i=65;i<=90;i++){
+  string=""
+  for (j=65;j<=i;j++){
+    string=string+String.fromCharCode(i)
+  }console.log(string)
+}
+
+
+
+
+
+
+
+for (i=97;i<=122;i++){
+  string=""
+  for (j=97;j<=i;j++){
+    string=string+String.fromCharCode(j)
+  }console.log(string)
+}
+
+
+
+
+
+
+var user_input=3;
+for (i=122;i>=97;i--){
+  string=""
+  for (j=122;j>=i;j--){
+    string=string+String.fromCharCode(j)
+  }console.log(string)
+}
+
+
+
+
+
+var user_input=3;
+for (i=0;i<user_input;i++){
+  string=""
+  for (j=0;j<=i;j++){
+    string=string+String.fromCharCode(122-j)
+  }console.log(string)
+}
+
+
+
+
+

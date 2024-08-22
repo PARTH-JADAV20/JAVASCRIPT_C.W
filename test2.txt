@@ -1,0 +1,132 @@
+// console.log("hello world");
+
+// var a="Parth"
+// var b="Dhrangadhra , Surendranagar"
+// console.log("i am ",a);
+
+// console.log("i am from",b);
+
+// var radius=5
+// console.log("area of circle is",3.14*radius**2)
+
+
+// var a=12
+// var b=6
+// console.log(a/b,a*b,a+b,a-b);
+
+// let a=45;
+// let b=54;
+
+// [a, b] = [b, a];
+
+// console.log("a =",a,"b =",b)
+
+// var a=8;
+// var b=5;
+
+// if (a==b){
+//     console.log("both are equal")
+// }else if(a>=b ){
+//     console.log("a is greater",a)
+// }else {
+//     console.log("b is greater",b)
+// }
+
+// var a=8;
+// var b=5;
+
+// if (a==b){
+//     console.log("both are equal")
+// }else if(a<=b ){
+//     console.log("a is smaller",a)
+// }else {
+//     console.log("b is samller",b)
+// }
+
+// var a=8;
+// var b=5;
+// var c=10;
+
+// if (a==b & b==c){
+//     console.log("all are equal")
+// }else if(a<=b & a<=c){
+//     console.log("a is samller",a)
+// }else if(b<=c){
+//     console.log("b is samller",b)
+// }else{
+//     console.log("c is samller",c)
+// }
+
+
+// for (i=1;i<=12;i++){
+//     for(j=1;j<=10;j++){
+//         console.log(i,"x",i/j,"=",i=i+j)
+//     }
+// }
+
+// var num=0;
+// var a=45
+// var b=65
+// function number(){
+// for (i=a;i<=b;i++){
+//     num=num+i
+// }
+// console.log(num)
+// }
+
+// number(num);
+
+
+// var no=8;
+// var count=0;
+// for (i=2;i<no;i++){
+//     if (no%i==0){
+//         count=count+1
+//     }
+// }
+
+// if (count>0){
+//     console.log("not prime")
+// }else {
+//     console.log("prime")
+// }
+
+
+// var m=[1,2,3] 
+// console.log(m)
+
+// var a=[]
+// for(i=101;i<=130;i++){
+//     num=i
+//     a.push(num)
+// }
+// console.log(a)
+
+// var string="jkdflkdjlkf"
+// console.log("Length of string =",string.length)
+
+// var a="54545"
+// var b;
+
+// console.log(b=a)
+// console.log(a)
+
+
+// var a="fkhfjf"
+// var b="sdoruiyf"
+
+// console.log(a.concat(b))
+
+
+// console.log("********")
+
+
+// var a=5
+// var b=6
+
+// function parth(){
+//     console.log(a+b)
+// }
+
+// parth(a,b)
+
