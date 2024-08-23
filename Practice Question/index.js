@@ -18,7 +18,7 @@
 //array question
 //2
 //6min
-//little help by jenil code
+//by myself
 
 // var array=[1,3,5,9,2]
 // var a=[]
