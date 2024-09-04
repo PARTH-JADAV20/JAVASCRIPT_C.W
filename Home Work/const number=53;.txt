@@ -1,0 +1,56 @@
+const number="53";
+var lena=number.length;
+var num=0;
+function a(){
+    for (i=0;i<lena;i++) {
+        num=num+number[i]**lena
+    }
+    if (number==num){
+     console.log(num)
+    }else {
+        console.log("not allowed betaji")
+    }
+}
+
+a(number)
+
+
+=======================================================================================================================================================================
+
+
+const number=[3,7,0];
+const no=number.join('');
+var lena=number.length;
+var num=0;
+function a(){
+    for (i=0;i<lena;i++) {
+        num=num+number[i]**lena
+    }
+    if (no==num){
+        console.log(num)
+    }else {
+        console.log("not allowed betaji")
+    }
+}
+
+a(number)
+
+
+=======================================================================================================================================================================
+
+let number=53;
+let no=number.toString();
+var lena=no.length;
+var num=0;
+function a(){
+    for (i=0;i<lena;i++) {
+        num=num+no[i]**lena
+    }
+    if (no==num){
+        console.log(num)
+    }else {
+        console.log("not allowed betaji")
+    }
+}
+
+a(no)
